@@ -1,0 +1,113 @@
+{
+"response_code": 0,
+"results": [
+{
+"category": "Vehicles",
+"type": "multiple",
+"difficulty": "easy",
+"question": "Where are the cars of the brand &#039;Ferrari&#039; manufactured?",
+"correct_answer": "Italy",
+"incorrect_answers": [
+"Romania",
+"Germany",
+"Russia"
+]
+},
+{
+"category": "Vehicles",
+"type": "multiple",
+"difficulty": "easy",
+"question": "Which Italian city is home of the car manufacturer &#039;Fiat&#039;?",
+"correct_answer": "Turin",
+"incorrect_answers": [
+"Maranello",
+"Turin",
+"Modena",
+"Rome"
+]
+},
+{
+"category": "Vehicles",
+"type": "multiple",
+"difficulty": "easy",
+"question": "Which of the following car manufacturers had a war named after it?",
+"correct_answer": "Toyota",
+"incorrect_answers": [
+"Honda","Ford","Toyota","Volkswagen"
+]
+},
+{
+"category": "Vehicles",
+"type": "multiple",
+"difficulty": "easy",
+"question": "Jaguar Cars was previously owned by which car manfacturer?",
+"correct_answer": "Ford",
+"incorrect_answers": [
+"Chrysler",
+"General Motors",
+"Fiat",
+"Ford"
+]
+},
+{
+"category": "Vehicles",
+"type": "multiple",
+"difficulty": "easy",
+"question": "Which of the following collision avoidance systems helps airplanes avoid colliding with each other?",
+"correct_answer": "TCAS",
+"incorrect_answers": [
+"GPWS","TCAS","OCAS","TAWS"
+]
+},
+{
+"category": "Vehicles",
+"type": "multiple",
+"difficulty": "easy",
+"question": "Which of these companies does NOT manufacture motorcycles?",
+"correct_answer": "Toyota",
+"incorrect_answers": [
+"Toyota","Honda","Kawasaki","Yamaha"
+]
+},
+{
+"category": "Vehicles",
+"type": "multiple",
+"difficulty": "easy",
+"question": "Automobiles produced by Telsa Motors operate on which form of energy?",
+"correct_answer": "Electricity",
+"incorrect_answers": [
+"Electricity","Gasoline","Diesel","Nuclear"
+]
+},
+{
+"category": "Vehicles",
+"type": "multiple",
+"difficulty": "easy",
+"question": "What are the cylinder-like parts that pump up and down within the engine?",
+"correct_answer": "Pistons",
+"incorrect_answers": [
+"Leaf Springs","Radiators","Pistons","ABS"
+]
+},
+{
+"category": "Vehicles",
+"type": "multiple",
+"difficulty": "easy",
+"question": "The LS1 engine is how many cubic inches?",
+"correct_answer": "346",
+"incorrect_answers": [
+"346","350","355","360"
+]
+},
+{
+"category": "Vehicles",
+"type": "multiple",
+"difficulty": "easy",
+"question": "The LS7 engine is how many cubic inches?",
+"correct_answer": "427",
+"incorrect_answers": [
+"346","364","376","427"
+]
+}
+]
+}

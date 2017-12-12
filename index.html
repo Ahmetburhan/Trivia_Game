@@ -1,88 +1,52 @@
-  <!DOCTYPE html>
+<!DOCTYPE html>
+<html>
 
-  <html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <title>Pixar Trivia</title>
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Shrikhand" rel="stylesheet">
+    <link href="assets/css/reset.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="assets/css/style.css" rel="stylesheet">
+</head>
 
-  <head>
-
-    <meta charset="utf-8">
-    <title>Travel Trivia Quiz</title>
-    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
-    <script src="js/script.js"></script>
-    <link rel="stylesheet" type="text/css" href="css/style.css">   
-    
-   <!--  <script type="text/javascript">
-      $(document).ready(function(){
-        $("#myModal").modal('show');
-      });
-    </script> -->
-
-  </head>
-
-  <body>
-
-
-
-
-
-    <div class="container">
-
-      <br>
-
-      <!-- Jumbotron -->
-      <div class="jumbotron">
-        <h1 class="text-center">Trivia Game!</h1>
-      </div>
-
-      <div class="row">
-
-        <!-- Sign-Up Panel-->
-        <div class="col-lg-12">
-          <div class="panel panel-default">
-            <div class="panel-heading">
-              <h3 class="panel-title">Question?</h3>
-            </div>
-            <div class="panel-body">
-
-              <!-- Sign-up Form (note the various input "types")-->
-              
-            </div>
-          </div>
-        </div>
-
-        <!-- Most Recent Member Panel -->
-        <div class="col-lg-8">
-          <div class="panel panel-default">
-            <div class="panel-heading">
-              <h3 class="panel-title">Answers</h3>
-            </div>
-            <div class="panel-body" id="recent-member">
-
-            </div>
-          </div>
-        </div>
-
-      </div>
+<body>
+    <header>
+        <img src='assets/images/header.jpg' alt='headerImg' width='100%'>
+    </header>
+    <div class='container'>
+        <button class='btn btn-primary' id='startBtn'>Start</button>
+        <button class='btn btn-primary' id='inst'>Instructions</button>
+        <!-- Question page -->
+        <div id=timeLeft></div>
+        <div id=currentQuestion></div>
+        <div class='question'></div>
+        <div class='answerList'></div>
+        <!-- Answer Page -->
+        <div id=message></div>
+        <div id=correctedAnswer></div>
+        <div id=gif></div>
+        <!-- Scoreboard -->
+        <div id=finalMessage></div>
+        <div id=correctAnswers></div>
+        <div id=incorrectAnswers></div>
+        <div id=unanswered></div>
+        <div id='startOverBtn'></div>
+    </div>
 
 
-
-
-    <!-- Modal -->
+       <!-- Modal -->
     <div class="modal fade" id="myModal" role="dialog">
       <div class="modal-dialog">
 
-        <!-- Modal content-->
+        <!-- Instruct Modal content-->
         <div class="modal-content">
           <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal">&times;</button>
             <h3 class="modal-title red">Welcome to Trivia Game  tutorial!</h3>
           </div>
           <h3>Instructions</h3>
-          <p>Choose the capital cities of the following countries</p>
+          <p>If you are an enthutiast!, you dont need <-!this!-> ;-)</p>
           <p>
             Press the START button and play through the quiz. After you're done, our servers will calculate your grade and let you know how you did.
           </p>
@@ -93,8 +57,8 @@
 
             <div class="modal-footer">
 
-              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-success" data-position="left" data-delay="50" data-tooltip="Click To Start." id="startButton">Start</a>
+              <button type="button" class="btn btn-success" data-dismiss="modal" id='startBtn'>Start</button>
+              
               </div>
 
             </div>
@@ -102,13 +66,13 @@
           </div>
         </div>
       </div>
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <!-- <script type="text/javascript" src="assets/javascript/app.js"> -->
+        <script type="text/javascript" src="assets/javascript/script.js"></script>
+</body>
 
+    <footer>
+        <img src='assets/images/right2.png' alt='headerImg' width='55%' height="100%">
+    </footer>
 
-
-
-
-
-
-    </body>
-
-    </html>
+</html>
