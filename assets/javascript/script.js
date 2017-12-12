@@ -10,9 +10,9 @@
 // MAke a refresh page button.
 //  -->
 
-// $(document).ready(function(){
-// 	$("#myModal").modal('show');
-// });
+$(document).ready(function(){
+	$("#myModal").modal('show');
+});
 
 
 var triviaQuestions = [{
