@@ -12,6 +12,14 @@ header{
 	margin-bottom: 20px;
 }
 
+#headerImg {
+	position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    width: 50%;
+
+}
 .btn-primary,.reset{
 	background-color: #313477;
 	color: white;
@@ -31,6 +39,16 @@ header{
 	width: 700px;
 }
 
+  .red {
+  	font-family: Pacifico !important;
+  	font-size: 28px;
+    color: crimson !important;
+  }
+
+
+  .modal-content {
+  	padding: 7%;
+  }
 h2, #message, #finalMessage{
 	font-family: 'Shrikhand', cursive;
 	color: white;

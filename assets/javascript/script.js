@@ -87,6 +87,7 @@ var messages = {
 
 $('#startBtn').on('click', function(){
 	$(this).hide();
+	$('#instBtn').hide();
 	newGame();
 });
 
