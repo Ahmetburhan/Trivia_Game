@@ -2,78 +2,88 @@
 <html>
 
 <head>
-    <meta charset="UTF-8">
-    <title>Car Enthusiat Trivia Game</title>
-    <link href="https://fonts.googleapis.com/css?family=Lobster|Shrikhand" rel="stylesheet">
-    <link href="assets/css/reset.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link href="assets/css/style.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <title>Car Enthusiat Trivia Game</title>
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Lobster|Shrikhand" rel="stylesheet">
+        <script src="js/scripts.js"></script>
+        <link href="assets/css/style.css" rel="stylesheet">
+        
+        <script type="text/javascript">
+        $(document).ready(function(){
+        $("#myModal").modal('show');});
+</script>
+
+ 
 </head>
 
 <body>
 
-    <header>
-        <img src='assets/images/header.jpg' alt='headerImg' width='100%'>
-    </header>
-    <div class='container'>
-        <button class='btn btn-primary' id='startBtn'>Start</button>
-        <!-- <button class='btn btn-primary' id='inst'>Instructions</button> -->
-        <!-- Question page -->
-        <div id=timeLeft></div>
-        <div id=currentQuestion></div>
-        <div class='question'></div>
-        <div class='answerList'></div>
-        <!-- Answer Page -->
-        <div id=message></div>
-        <div id=correctedAnswer></div>
-        <div id=gif></div>
-        <!-- Scoreboard -->
-        <div id=finalMessage></div>
-        <div id=correctAnswers></div>
-        <div id=incorrectAnswers></div>
-        <div id=unanswered></div>
-        <div id='startOverBtn'></div>
-    </div>
+  <header>
+    <img src='assets/images/header.jpg' alt='headerImg' width='100%'>
+  </header>
+  <div class='container'>
+    <button class='btn btn-primary' id='startBtn'>Start</button>
+    <!-- <button class='btn btn-primary' id='inst'>Instructions</button> -->
+    <!-- Question page -->
+    <div id=timeLeft></div>
+    <div id=currentQuestion></div>
+    <div class='question'></div>
+    <div class='answerList'></div>
+    <!-- Answer Page -->
+    <div id=message></div>
+    <div id=correctedAnswer></div>
+    <div id=gif></div>
+    <!-- Scoreboard -->
+    <div id=finalMessage></div>
+    <div id=correctAnswers></div>
+    <div id=incorrectAnswers></div>
+    <div id=unanswered></div>
+    <div id='startOverBtn'></div>
+  </div>
 
 
-       <!-- Modal -->
-    <div class="modal fade" id="myModal" role="dialog">
-      <div class="modal-dialog">
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
 
-        <!-- Instruct Modal content-->
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal">&times;</button>
-            <h3 class="modal-title red">Welcome to Trivia Game  tutorial!</h3>
-          </div>
-          <h3>Instructions</h3>
-          <p>If you are an enthutiast!, you dont need <-!this!-> ;-)</p>
-          <p>
-            Press the START button and play through the quiz. After you're done, our servers will calculate your grade and let you know how you did.
-          </p>
-          <div class="modal-body">
-            <p>
-              <img class="img-responsive" src="img/spinning.gif" width="498" alt="spinning" />
-            </p>
-
-            <div class="modal-footer">
-
-              <button type="button" class="btn btn-success" data-dismiss="modal" id='startBtn'>Dismiss</button>
-              
-              </div>
-
-            </div>
-
-          </div>
+      <!-- Instruct Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h3 class="modal-title red">Welcome to Trivia Game  tutorial!</h3>
         </div>
+        <h3>Instructions</h3>
+        <p>If you are an enthutiast!, you dont need <-!this!-> ;-)</p>
+        <p>
+          Press the START button and play through the quiz. After you're done, our servers will calculate your grade and let you know how you did.
+        </p>
+        <div class="modal-body">
+          <p>
+            <img class="img-responsive" src="img/spinning.gif" width="498" alt="spinning" />
+          </p>
+
+          <div class="modal-footer">
+
+            <button type="button" class="btn btn-success" data-dismiss="modal" id='startBtn'>Dismiss</button>
+
+          </div>
+
+        </div>
+
       </div>
-    <script src="https://code.jquery.com/jquery.js"></script>
-    <!-- <script type="text/javascript" src="assets/javascript/app.js"> -->
-        <script type="text/javascript" src="assets/javascript/script.js"></script>
-</body>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <!-- <script type="text/javascript" src="assets/javascript/app.js"> -->
+    <script type="text/javascript" src="assets/javascript/script.js"></script>
+  </body>
 
-    <footer>
-        <img src='assets/images/right2.png' alt='headerImg' width='55%' height="100%">
-    </footer>
+  <footer>
+    <img src='assets/images/right2.png' alt='headerImg' width='55%' height="100%">
+  </footer>
 
-</html>
+  </html>
