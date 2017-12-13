@@ -52,7 +52,7 @@ var triviaQuestions = [{
 },
 
 {
-	question: "Automobiles produced by Telsa Motors operate on which form of energy?",
+	question: "Automobiles produced by Tesla Motors operate on which form of energy?",
 	answerList: ["Electricity","Gasoline","Diesel","Nuclear"],
 	answer: 0
 },
